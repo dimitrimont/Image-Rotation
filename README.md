@@ -32,7 +32,7 @@ OpenCV (cv2)
 
 Usage
 
-Place an image named "pizza1.png" in the same directory as the script
+Enter an image named in the same directory as the script(be sure to enter .jpg, jpeg, .png, .pdf at the end of image name)
 Run the program:
 Copypython ImageRotationAssignment1.py
 
