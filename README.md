@@ -1,8 +1,7 @@
-Image Rotation Algorithm
+# Image Rotation Algorithm
 
-This repository contains a custom image rotation algorithm implementation developed for CSC340 coursework.
 
-Overview
+## Overview
 This Python program implements an image rotation algorithm from scratch that:
 
 Reads an input image and creates a bordered copy to accommodate rotation
@@ -17,20 +16,20 @@ Absolute color error (RGB)
 
 Visualizes and saves the rotated image
 
-Key Features
+## Key Features
 
 Custom Matrix Transformation: Implements rotation using fundamental matrix operations
 Error Analysis: Detailed calculation of the differences between original and rotated images
 Configurable Rotations: Support for different rotation angles (theta) and multiple rotation cycles
 Visual Output: Displays and saves the final rotated image
 
-Requirements
+## Requirements
 
 Python 3.x
 NumPy
 OpenCV (cv2)
 
-Usage
+## Usage
 
 Enter an image named in the same directory as the script(be sure to enter .jpg, jpeg, .png, .pdf at the end of image name)
 Run the program:
