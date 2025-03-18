@@ -4,7 +4,7 @@ import numpy as np
 import math
 
 #read my image i want rotated
-image = cv2.imread("pizza1.png")
+image = cv2.imread(str(input("Enter image file name(Be sure to enter .png, .jpeg, .pdf at end of name): ")))
 
 #get the row and column values to create copy my original image but with a large border similar to the last assignment
 numRows = image.shape[0]
